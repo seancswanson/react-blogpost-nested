@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+}
+
+.allAuthors {
+  border: 4px double black;
+  padding: 20px 10px;
+  width: 200px;
+  margin: 0 auto;
+  background: grey;
+  color: black;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.comments {
+  border: 4px double black;
+  padding: 3px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.comment {
+  box-shadow: 0 1px 5px 1px black;
+  padding: 5px;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.noBullet {
+  list-style: none;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
